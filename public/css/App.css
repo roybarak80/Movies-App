@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+.App {
+    margin: 0;
+    font-family: "Roboto";
+    background: #eaeaea;
+}
+
+.banner .main_cover {
+    background: #335252;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.banner .logo {
+    font-family: 'Monoton';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    height: 32%;
+    color:#fff;
+    font-size: 3.5em;
+    text-align: center;
+
+}
+
+.moviePosterCard, .movieInfoCard{
+width:50%;
+height: auto;
+
+}
+
+.movie-info-card-wrapper{
+    text-align: center;
+}
+.italic-title{
+    font-style: italic;
+    color: #eaeaea;
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+.movie-release-date{
+    margin-bottom: 15px;
+}
+.movie-release-date-date{
+    font-family: 'Abel';
+    font-size: 2.2em;
+    font-weight: 600;
+    display: block;
+}
+.moviePosterCard{
+    float: left;
+}
+.movieInfoCard{
+    float: right;
+    padding: 20px 15px;
+}
+
+.movie-title{
+    font-family: 'Abel';
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.movie-overview{
+    max-height: 43px;
+    overflow: hidden;
+}
+
+/* .edit-movie-btn{
+    padding: 6px 0 6px 0;
+} */
+
+.movie-rating{
+margin-bottom: 15px;
+}
+.read-more-btn{
+    position: absolute;
+    right: 8px;
+    bottom: -3px;
+    background-color: white;
+    padding: 5px 10px;
+}
+.read-more-btn:hover,.read-more-btn:focus, .read-more-btn:active{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.ratingStar{
+    color:#ffa500;
+    font-size:20px;
+    margin-left: 2px;
+}
+.movie-card-item{
+    width: calc(32.3% - 6px);
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    
+}
+.movie-card-item img{
+    width: 100%;
+    min-height: 278px;
+    
+}
+.movie-card-item:hover {
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+.panel-heading{
+    padding: 0;
+    overflow: hidden;
+}
+
+.panel-heading{
+    padding: 0;
+    overflow: hidden;
+}
+.panel-primary > .panel-heading {
+    background-color: #0b2a44;
+}
+
+.panel-body {
+    min-height: 118px;
+}
+
+/* Movie overview modal  */
+
+.curr-genre{
+    color: orange;
+    font-size: 0.9em;
+}
+/* @media only screen and (max-width: 1000px) {
+    .movie-card-item{
+        width: calc(33.3% - 6px);
+        float: left;
+        margin-bottom: 5px;
+        margin-right: 3px;
+        margin-left: 3px;
+        
+    }
+}  */
+
+
+@media only screen and (max-width: 600px) {
+    .movie-card-item{
+        width: 100%;
+        margin-bottom: 5px;
+        margin-right: 3px;
+        margin-left: 3px;
+        
+    }
+    .banner .main_cover {
+        background: #335252;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        height: 120px;
+        margin-bottom: 16px;
+    }
+    .banner .logo {
+        font-size: 2.5em;
+    }
+} 
